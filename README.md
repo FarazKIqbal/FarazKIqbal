@@ -3,7 +3,7 @@
 <h1 align="center">Hey, I'm Faraz Karukappadath Iqbal 👋🐱</h1>
 <h6>Full-Stack Developer | AI/ML Enthusiast</h6>
 
-<img src="assets/cat-coding.svg" alt="A cute cat coding on a laptop" width="480"/>
+<img src="cat-coding.svg" alt="A cute cat coding on a laptop" width="480"/>
 
 </div>
 
