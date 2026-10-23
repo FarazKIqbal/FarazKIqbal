@@ -1,0 +1,78 @@
+<svg viewBox="0 0 600 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A cute cat coding on a laptop">
+  <rect width="600" height="330" rx="16" fill="#0D1117" stroke="#30363d"/>
+
+  <!-- stars -->
+  <g fill="#8b949e">
+    <circle cx="70" cy="50" r="2"><animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="70" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="120" cy="120" r="1.5"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="480" cy="140" r="1.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- tail -->
+  <path d="M425 282 C480 282 495 225 462 205" fill="none" stroke="#f5a65b" stroke-width="13" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" values="-5 425 282;6 425 282;-5 425 282" dur="2.4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- ears -->
+  <polygon points="256,72 260,30 294,58" fill="#f5a65b"/>
+  <polygon points="344,72 340,30 306,58" fill="#f5a65b"/>
+  <polygon points="264,62 265,43 281,57" fill="#f4b6c2"/>
+  <polygon points="336,62 335,43 319,57" fill="#f4b6c2"/>
+
+  <!-- head -->
+  <ellipse cx="300" cy="106" rx="54" ry="45" fill="#f5a65b"/>
+  <g stroke="#d9822b" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M300 64 v12"/><path d="M286 67 l3 10"/><path d="M314 67 l-3 10"/>
+  </g>
+
+  <!-- eyes (blinking) -->
+  <g fill="#1a1b27">
+    <ellipse cx="280" cy="104" rx="5.5" ry="6.5">
+      <animate attributeName="ry" values="6.5;6.5;6.5;0.6;6.5" keyTimes="0;0.6;0.9;0.95;1" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="320" cy="104" rx="5.5" ry="6.5">
+      <animate attributeName="ry" values="6.5;6.5;6.5;0.6;6.5" keyTimes="0;0.6;0.9;0.95;1" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+  <circle cx="282" cy="101" r="1.8" fill="#fff"/>
+  <circle cx="322" cy="101" r="1.8" fill="#fff"/>
+
+  <!-- nose, mouth, whiskers, blush -->
+  <polygon points="294,116 306,116 300,123" fill="#f4829b"/>
+  <path d="M300 123 q-6 9 -13 3 M300 123 q6 9 13 3" fill="none" stroke="#1a1b27" stroke-width="2" stroke-linecap="round"/>
+  <g stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity="0.85">
+    <path d="M262 116 l-26 -4"/><path d="M262 123 l-26 4"/>
+    <path d="M338 116 l26 -4"/><path d="M338 123 l26 4"/>
+  </g>
+  <ellipse cx="266" cy="118" rx="7" ry="4" fill="#f4829b" opacity="0.35"/>
+  <ellipse cx="334" cy="118" rx="7" ry="4" fill="#f4829b" opacity="0.35"/>
+
+  <!-- laptop screen -->
+  <rect x="180" y="152" width="240" height="128" rx="8" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+  <circle cx="196" cy="166" r="3" fill="#ff5f56"/>
+  <circle cx="208" cy="166" r="3" fill="#ffbd2e"/>
+  <circle cx="220" cy="166" r="3" fill="#27c93f"/>
+
+  <!-- code lines (typing) -->
+  <rect x="196" y="182" height="8" rx="4" fill="#ff7b72"><animate attributeName="width" values="0;50;50;0" keyTimes="0;0.2;0.9;1" dur="6s" repeatCount="indefinite"/></rect>
+  <rect x="252" y="182" height="8" rx="4" fill="#79c0ff"><animate attributeName="width" values="0;70;70;0" keyTimes="0;0.25;0.9;1" dur="6s" repeatCount="indefinite"/></rect>
+  <rect x="212" y="200" height="8" rx="4" fill="#d2a8ff"><animate attributeName="width" values="0;90;90;0" keyTimes="0;0.35;0.9;1" dur="6s" repeatCount="indefinite"/></rect>
+  <rect x="212" y="218" height="8" rx="4" fill="#7ee787"><animate attributeName="width" values="0;60;60;0" keyTimes="0;0.45;0.9;1" dur="6s" repeatCount="indefinite"/></rect>
+  <rect x="196" y="236" height="8" rx="4" fill="#ffa657"><animate attributeName="width" values="0;110;110;0" keyTimes="0;0.55;0.9;1" dur="6s" repeatCount="indefinite"/></rect>
+  <rect x="196" y="254" width="8" height="12" fill="#c9d1d9"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+
+  <!-- paws over the screen edge -->
+  <ellipse cx="262" cy="152" rx="16" ry="10" fill="#f5a65b"/>
+  <ellipse cx="338" cy="152" rx="16" ry="10" fill="#f5a65b"/>
+  <g stroke="#d9822b" stroke-width="1.5" stroke-linecap="round">
+    <path d="M256 150 v5"/><path d="M262 149 v6"/><path d="M268 150 v5"/>
+    <path d="M332 150 v5"/><path d="M338 149 v6"/><path d="M344 150 v5"/>
+  </g>
+
+  <!-- laptop base -->
+  <rect x="150" y="280" width="300" height="10" rx="5" fill="#30363d"/>
+
+  <!-- caption -->
+  <text x="300" y="316" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#8b949e">// purr-fecting my code</text>
+</svg>
