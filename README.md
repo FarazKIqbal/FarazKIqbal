@@ -23,7 +23,7 @@
 
 ## 🐾 About Me
 
-I'm a Full-Stack Developer and AI/ML enthusiast from **Kodungallur, Kerala**, currently pursuing B.Tech in Computer Science Engineering at **Govt. Model Engineering College** (KTU, 2026 batch) with a CGPA of 8.4.
+I'm a Full-Stack Developer and AI/ML enthusiast from **Kodungallur, Kerala**, with a B.Tech in Computer Science Engineering from **Govt. Model Engineering College** (KTU) and a CGPA of 8.4.
 
 - 🏙️ I build end-to-end systems — from ML model prototyping to production-ready REST APIs and responsive frontends.
 - 🔭 Currently diving deep into **RAG pipelines**, explainable AI, and scalable microservice backends.
